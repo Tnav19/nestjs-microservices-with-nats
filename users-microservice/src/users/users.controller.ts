@@ -21,4 +21,5 @@ export class UsersMicroserviceController {
   paymentCreated(@Payload() data: any) {
     console.log(data);
   }
+
 }
